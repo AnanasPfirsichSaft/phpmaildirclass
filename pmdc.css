@@ -1,0 +1,122 @@
+body {
+margin: 0;
+padding: 0;
+font-family: "Ubuntu","Droid Sans","Oxygen","Roboto","Tahoma",sans-serif;
+font-size: 12pt;
+background-color: #ffffff;
+color: #333333;
+}
+
+h1 {
+background: #eeeeee;
+background: linear-gradient(to bottom, #eeeeee 0%,#dddddd 100%);
+font-size: 300%;
+color: #ffffff;
+text-align: center;
+text-shadow: 2px 2px 4px #000000;
+text-transform: uppercase;
+letter-spacing: 4pt;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+h1:before {
+content: url("pmdc.svg");
+position: relative;
+top: 8px;
+left: -12px;
+}
+
+input[type=submit] {
+font-family: inherit;
+}
+
+table {
+width: 100%;
+}
+
+th {
+background-color: #eeeeee;
+text-transform: uppercase;
+border-bottom: 2px solid #dddddd;
+text-align: left;
+font-weight: bold;
+padding-left: 0.5em;
+}
+
+td {
+padding: 4px;
+}
+
+hr {
+clear: both;
+}
+
+.main {
+margin: 2%;
+border: 2px solid #dddddd;
+}
+
+.main_inner {
+padding: 1%;
+}
+
+.footer {
+font-size: 66%;
+text-align: right;
+color: #aaaaaa;
+}
+
+.folder_select {
+float: left;
+}
+
+.username {
+float: right;
+font-weight: bold;
+font-size: 125%;
+}
+
+.itembox {
+border: 1px solid #dddddd;
+background-color: #eeeeee;
+padding: 0.5%;
+margin-bottom: 4px;
+}
+
+.itembox > strong {
+width: 5em;
+display: inline-block;
+}
+
+.textbox {
+border: 1px solid #dddddd;
+background-color: #eeeeee;
+padding: 0.5%;
+margin-bottom: 4px;
+}
+
+.textbox_head {
+background-color: #333333;
+color: #eeeeee;
+padding: 0.5%;
+font-size: 125%;
+}
+
+.textbox_body {
+background-color: #ffffff;
+font-family: "Ubuntu Mono","Droid Sans Mono","Oxygen Mono",monospace;
+padding: 0.5%;
+}
+
+.light {
+background-color: #eeeeee;
+}
+
+.dark {
+background-color: #dddddd;
+}
+
+.current {
+background-color: #ffffaa;
+}
